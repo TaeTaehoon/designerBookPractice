@@ -1,0 +1,29 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    color: #353535;
+    font-family: "Roboto", "NanumSquare", sans-serif;
+}
+
+ul, li {
+    margin: 0px;
+    padding: 0px;
+}
+
+.introSection1 .mainTitle {
+    font-size: 8vw;
+    font-family: 'Nanum Myeongjo';
+    font-weight: 700;
+    position: absolute;
+    top: 30vh;
+    left: 24vw;
+}
+
+.introSection1 .subTitle {
+    font-size: 1.4vw;
+    font-weight: 500;
+    position: absolute;
+    top: 55vh;
+    left: 38vw;
+}
