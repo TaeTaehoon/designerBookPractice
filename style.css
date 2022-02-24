@@ -13,7 +13,7 @@ ul, li {
 
 .introSection1 .mainTitle {
     font-size: 8vw;
-    font-family: 'Nanum Myeongjo';
+    font-family: "Nanum Myeongjo";
     font-weight: 700;
     position: absolute;
     top: 30vh;
@@ -26,4 +26,60 @@ ul, li {
     position: absolute;
     top: 55vh;
     left: 38vw;
+}
+
+.siteTitle {
+    position: absolute;
+    font-size:1.2vw;
+    font-weight: 300;
+    top: 65vh;
+    left: 10vw;
+}
+
+.copyRight {
+    position: absolute;
+    transform: rotate(90deg);
+    font-size: 14px;
+    font-weight: 800;
+    right: -80px;
+    top: 20vh;
+}
+
+.snsSection {
+    position: fixed;
+    bottom: 60px;
+    right: 77px;
+    font-size: 20px;
+    z-index: 2;
+}
+
+.snsSection .snsDeco {
+    display: inline-block;
+    width: 110px;
+    height: 2px;
+    background: #353535;
+    vertical-align: middle;
+    margin-top: -5px;
+    margin-right: 40px;
+}
+
+.snsSection ul {
+    display: inline-block;
+}
+
+.snsSection ul li {
+    font-weight: 800;
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+.snsSection ul li:first-child {
+    margin-left: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
