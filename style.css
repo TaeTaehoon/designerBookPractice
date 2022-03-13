@@ -10,31 +10,49 @@ ul, li {
     margin: 0px;
     padding: 0px;
 }
+.introSection1 {
+    height: 100vh;
+}
 
 .introSection1 .mainTitle {
     font-size: 8vw;
     font-family: "Nanum Myeongjo";
     font-weight: 700;
     position: absolute;
-    top: 30vh;
-    left: 24vw;
+    top: 50vh;
+    left: 50vw;
+    margin-top: -12vw;
+    margin-left: -28vw;
+    text-decoration-line: underline;
 }
 
 .introSection1 .subTitle {
     font-size: 1.4vw;
     font-weight: 500;
     position: absolute;
-    top: 55vh;
-    left: 38vw;
+    top: 50vh;
+    left: 50vw;
+    margin-top: 13vw;
+    margin-left: -13vw;
 }
+/*
+오브젝트들의 상대위치를 같게 맞추기 위해 position을 같게 설정하고 margin값을 조절해
+가운데로 위치를 맞췄다. 안 그러고 서로 position을 다르게 설정해서 가운데로 맞추면
+화면 크기가 커짐에 따라 폰트크기가 커지면서 서로 잡아먹어 버린다 ㅜ
+*/
 
 .siteTitle {
     position: absolute;
     font-size:1.2vw;
     font-weight: 300;
-    top: 65vh;
-    left: 10vw;
+    top: 92vh;
+    left: 5vw;
+    z-index: 1;
 }
+/*
+siteTitle이 데코레이션 이미지에 가려지는 현상이 있었는데 z-index를 통해 우선순위를
+먼저주자 해결되었다.
+*/
 
 .copyRight {
     position: absolute;
@@ -43,6 +61,19 @@ ul, li {
     font-weight: 800;
     right: -80px;
     top: 20vh;
+}
+.introSection2 {
+    margin-top: -130px;
+    padding: 0px 120px;
+    position: relative;
+}
+
+.introSection2 .imgDecoCopy{
+    position: absolute;
+    top: 65%;
+    right: -10%;
+    font-size: 8vw;
+    font-weight: 800;
 }
 
 .snsSection {
